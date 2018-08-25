@@ -50,4 +50,10 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
 	compile('org.apache.httpcomponents:httpclient:4.5.6')
 
+	//Redis
+	compile('org.springframework.boot:spring-boot-starter-data-redis')
+	//quartz
+	compile('org.springframework.boot:spring-boot-starter-quartz')
+
+
 }
